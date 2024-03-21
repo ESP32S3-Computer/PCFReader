@@ -6,4 +6,4 @@ cmake_minimum_required(VERSION 3.16)
 
 idf_component_register(SRCS "src/PCFReader.c"
                     INCLUDE_DIRS "include"
-                    REQUIRES "PCFFont")
+                    REQUIRES "PCFFont" "ILI9341-drive")
